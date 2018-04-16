@@ -1,0 +1,4 @@
+#!/bin/bash
+D=$(date)
+echo $D >> $(dirname $0)/log
+echo $D
